@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="cookbook">
 <head lang="en">
     <meta charset="UTF-8">
     <title>
@@ -7,6 +7,13 @@
     </title>
 </head>
 <body>
-
+    <div ng-controller="CtrlCookBook">
+        <p>{{text}}</p>
+    </div>
+<script src="../../bower_components/angular/angular.js"></script>
+<script src="../app.js"></script>
+<script src="../services/services.js"></script>
+<script src="../directives/directives.js"></script>
+<script src="../controllers/controllers.js"></script>
 </body>
 </html>
